@@ -1,0 +1,22 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noeliasabando/noeliasabando.github.io.git"
+  },
+  "author": "noelia sabando",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noeliasabando/noeliasabando.github.io/issues"
+  },
+  "homepage": "https://github.com/noeliasabando/noeliasabando.github.io#readme",
+  "devDependencies": {
+    "jest": "^23.5.0"
+  }
+}
