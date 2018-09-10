@@ -1,0 +1,11 @@
+#imgYo{
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+
+hr {
+  height: 1px;
+  width: 50%;
+  background-color: black;
+}
