@@ -1,5 +1,35 @@
+#titulo{
+  margin-top: 40px;
+}
+
+#parrafo{
+  margin-top: 30px;
+}
+
 hr {
   height: 1px;
   width: 50%;
   background-color: black;
+  margin-top: 103px;
+}
+
+body{
+  background-color: white;
+}
+
+.bg-light {
+  background-color: white!important;
+} /* no olvidar el important!!!! */
+
+
+.navbar-brand{
+  margin-right: 0;
+}
+
+
+#logos{
+  z-index: 10;
+  position: fixed;
+  top:30%;
+  left:10px;
 }

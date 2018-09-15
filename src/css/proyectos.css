@@ -3,3 +3,24 @@ hr {
   width: 50%;
   background-color: black;
 }
+
+body{
+  background-color: white;
+}
+
+.bg-light {
+  background-color: white!important;
+} /* no olvidar el important!!!! */
+
+
+.navbar-brand{
+  margin-right: 0;
+}
+
+
+#logos{
+  z-index: 10;
+  position: fixed;
+  top:30%;
+  left:10px;
+}

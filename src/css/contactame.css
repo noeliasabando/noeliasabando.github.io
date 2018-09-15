@@ -1,33 +1,22 @@
-#name{
-  margin-top: 20px;
-}
-
-.descripcion{
-  margin-top: 20px;
-}
-
-#imgYo{
-  width: 100%;
-  height: auto;
-  max-width: 200px;
-  border-radius: 50%;
-}
-
 hr {
   height: 1px;
   width: 50%;
   background-color: black;
-  margin-top: 80px;
 }
 
 body{
   background-color: white;
 }
 
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+ color: #fff; 
+ background-color: white;
+}
 
 .bg-light {
   background-color: white!important;
 } /* no olvidar el important!!!! */
+
 
 .navbar-brand{
   margin-right: 0;
@@ -39,4 +28,8 @@ body{
   position: fixed;
   top:30%;
   left:10px;
+}
+
+.carrusel{
+  margin-top: 50px;
 }
