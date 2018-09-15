@@ -1,24 +1,39 @@
 #titulo{
   margin-top: 40px;
+  color:#FC0853;
 }
 
-#parrafo{
+.parrafo{
   margin-top: 30px;
+  color: white;
 }
 
-hr {
+hr{
   height: 1px;
   width: 50%;
-  background-color: black;
+  background-color: #FC0853;
   margin-top: 103px;
 }
 
+a{
+  color: white;
+}
+
+a:hover{
+  color: #FC0853;
+}
+
 body{
-  background-color: white;
+  background-color: #181818;
+}
+
+i{
+  color: #FC0853;
+  font-size: 30px;
 }
 
 .bg-light {
-  background-color: white!important;
+  background-color: #181818 !important;
 } /* no olvidar el important!!!! */
 
 

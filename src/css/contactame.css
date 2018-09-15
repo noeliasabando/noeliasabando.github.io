@@ -1,22 +1,29 @@
 hr {
   height: 1px;
   width: 50%;
-  background-color: black;
+  background-color: #FC0853;
+}
+
+a{
+  color: white;
+}
+
+a:hover{
+  color: #FC0853;
 }
 
 body{
-  background-color: white;
+  background-color: #181818;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
- color: #fff; 
- background-color: white;
+i{
+  color: #FC0853;
+  font-size: 30px;
 }
 
 .bg-light {
-  background-color: white!important;
-} /* no olvidar el important!!!! */
-
+  background-color: #181818 !important;
+}
 
 .navbar-brand{
   margin-right: 0;
@@ -28,8 +35,4 @@ body{
   position: fixed;
   top:30%;
   left:10px;
-}
-
-.carrusel{
-  margin-top: 50px;
 }

@@ -2,14 +2,28 @@ hr {
   height: 1px;
   width: 50%;
   background-color: black;
+  background-color: #FC0853;
+}
+
+a{
+  color: white;
+}
+
+a:hover{
+  color: #FC0853;
 }
 
 body{
-  background-color: white;
+  background-color: #181818;
+}
+
+i{
+  color: #FC0853;
+  font-size: 30px;
 }
 
 .bg-light {
-  background-color: white!important;
+  background-color: #181818 !important;
 } /* no olvidar el important!!!! */
 
 
