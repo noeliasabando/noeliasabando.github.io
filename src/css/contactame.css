@@ -25,14 +25,9 @@ i{
   background-color: #181818 !important;
 }
 
-.navbar-brand{
-  margin-right: 0;
-}
-
-
 #logos{
   z-index: 10;
   position: fixed;
-  top:30%;
+  top:40%;
   left:10px;
 }
