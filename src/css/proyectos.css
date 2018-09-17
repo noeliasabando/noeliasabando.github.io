@@ -3,6 +3,7 @@ hr {
   width: 50%;
   background-color: black;
   background-color: #FC0853;
+  margin-top: 53px;
 }
 
 a{
@@ -61,4 +62,8 @@ i{
 
 .btn-primary:hover{
   background-color: #FC0853;
+}
+
+.imgProyectos{
+  margin-top: 30px;
 }
