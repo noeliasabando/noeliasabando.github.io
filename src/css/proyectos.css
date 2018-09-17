@@ -34,27 +34,31 @@ i{
 }
 
 #imgCheck{
-  width: 300px;
-  height: 150px;
+  width: 350px;
+  height: 170px;
   margin-top: 50px;
 }
 
 #imgTrello{
-  width: 300px;
+  width: 350px;
   height: auto;
   margin-top: 50px;
 }
 
 #imgPinterest{
-  width: 300px;
+  width: 350px;
   height: auto;
   margin-top: 50px;
 }
 
 .btn-primary{
   color: white;
-  background-color: #FC0853;
+  background-color: #181818;
   border-color: #181818;  
-  height: 30px;
-  padding: 5px;
+  margin-top: -65px;
+  padding: 2px;
+}
+
+.btn-primary:hover{
+  background-color: #FC0853;
 }
