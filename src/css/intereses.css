@@ -41,3 +41,11 @@ i{
   color: white;
 }
 
+.nav .nav-item.active .nav-link,
+.nav .nav-item.active .nav-link:hover,
+.nav .nav-item.active .nav-link:focus,
+.nav .nav-item.show .nav-link,
+.nav .nav-item.show .nav-link:hover,
+.nav .nav-item.show .nav-link:focus {
+  color: #FC0853;
+}
