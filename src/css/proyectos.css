@@ -32,3 +32,29 @@ i{
   top:40%;
   left:10px;
 }
+
+#imgCheck{
+  width: 300px;
+  height: 150px;
+  margin-top: 50px;
+}
+
+#imgTrello{
+  width: 300px;
+  height: auto;
+  margin-top: 50px;
+}
+
+#imgPinterest{
+  width: 300px;
+  height: auto;
+  margin-top: 50px;
+}
+
+.btn-primary{
+  color: white;
+  background-color: #FC0853;
+  border-color: #181818;  
+  height: 30px;
+  padding: 5px;
+}
