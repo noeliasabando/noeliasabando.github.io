@@ -2,7 +2,7 @@ hr {
   height: 1px;
   width: 50%;
   background-color: #FC0853;
-  margin-top:118px;
+  margin-top:113px;
 }
 
 a{
@@ -48,6 +48,19 @@ i{
   border-right: 0px !important;
   font-size: 18px;
   margin-bottom: 5px;
+  background-color: #181818;
+}
+
+.form-control:focus {
+  color: white;
+  background-color: #181818;
+  border-color: #FC0853;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #FC0853;
+}
+
+.form-control{
+  border: 1px solid #FC0853;
 }
 
 .texto{
@@ -59,6 +72,9 @@ i{
   border-color: #FC0853;
   color: white;
   margin-top: 30px;
+  width: 90px;
+  height: 35px;
+  border-radius: 10px;
 }
 
 #boton:hover{
