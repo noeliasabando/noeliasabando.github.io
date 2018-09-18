@@ -36,20 +36,47 @@ i{
 
 #imgCheck{
   width: 350px;
-  height: 170px;
+  height: auto;
   margin-top: 50px;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
 
 #imgTrello{
   width: 350px;
   height: auto;
   margin-top: 50px;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
 
 #imgPinterest{
   width: 350px;
   height: auto;
   margin-top: 50px;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+#imgDeliMap{
+  width: 350px;
+  height: auto;
+  margin-top: 50px;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+#imgVegan{
+  width: 350px;
+  height: auto;
+  margin-top: 50px;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
 
 .btn-primary{
@@ -75,4 +102,49 @@ i{
 .nav .nav-item.show .nav-link:hover,
 .nav .nav-item.show .nav-link:focus {
   color: #FC0853;
+}
+
+.opacidad {
+  transition: .5s ease;
+  opacity: 0; 
+}
+
+#imgBtn:hover .imgCheck {
+  opacity: 0.3;
+}
+
+#imgBtn:hover .opacidad {
+  opacity: 1;
+}
+
+#imgBtn1:hover .imgTrello {
+  opacity: 0.3;
+}
+
+#imgBtn1:hover .opacidad {
+  opacity: 1;
+}
+
+#imgBtn2:hover .imgPinterest {
+  opacity: 0.3;
+}
+
+#imgBtn2:hover .opacidad {
+  opacity: 1;
+}
+
+#imgBtn3:hover .imgDeliMap {
+  opacity: 0.3;
+}
+
+#imgBtn3:hover .opacidad {
+  opacity: 1;
+}
+
+#imgBtn4:hover .imgVegan {
+  opacity: 0.3;
+}
+
+#imgBtn4:hover .opacidad {
+  opacity: 1;
 }
