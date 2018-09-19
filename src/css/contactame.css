@@ -81,6 +81,11 @@ i{
   background-color: #FC0853;
 }
 
+#boton:focus{
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem transparent !important;
+}
+
 .nav .nav-item.active .nav-link,
 .nav .nav-item.active .nav-link:hover,
 .nav .nav-item.active .nav-link:focus,

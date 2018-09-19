@@ -94,7 +94,7 @@ i{
 
 .btn-primary:focus{
   outline: 0;
-  box-shadow: 0 0 0 0.2rem #FC0853 !important;
+  box-shadow: 0 0 0 0.2rem transparent !important;
 }
 
 .imgProyectos{
