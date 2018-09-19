@@ -51,3 +51,13 @@ i{
 .nav .nav-item.show .nav-link:focus {
   color: #FC0853;
 }
+
+.cloudTech{
+  color: #FC0853;
+  font-size: 1.5rem;
+}
+
+.cloudSoft{
+  color: rgb(255, 255, 255);
+  outline: 0;
+}

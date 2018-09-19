@@ -32,64 +32,64 @@
           <canvas width="500" height="500" id="myCanvas">
             <ul>
               <li>
-                <a href="https://es.wikipedia.org/wiki/HTML5" target="_blank">HTML 5</a>
+                <a class="cloudTech" href="https://es.wikipedia.org/wiki/HTML5" target="_blank">HTML 5</a>
               </li>
               <li>
-                <a href="https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada" target="_blank">CSS</a>
+                <a class="cloudTech" href="https://es.wikipedia.org/wiki/Hoja_de_estilos_en_cascada" target="_blank">CSS</a>
               </li>
               <li>
-                <a href="https://es.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a>
+                <a class="cloudTech" href="https://es.wikipedia.org/wiki/JavaScript" target="_blank">JavaScript</a>
               </li>
               <li>
-                <a href="https://es.wikipedia.org/wiki/Node.js" target="_blank">Node JS</a>
+                <a class="cloudTech" href="https://es.wikipedia.org/wiki/Node.js" target="_blank">Node JS</a>
               </li>
               <li>
-                <a  href="https://es.wikipedia.org/wiki/Gi" target="_blank">Git/GitHub</a>
+                <a class="cloudTech" href="https://es.wikipedia.org/wiki/Gi" target="_blank">Git/GitHub</a>
               </li>
               <li>
-                <a href="https://es.wikipedia.org/wiki/Bootstrap_(framework)" target="_blank">Bootstrap</a>
+                <a class="cloudTech" href="https://es.wikipedia.org/wiki/Bootstrap_(framework)" target="_blank">Bootstrap</a>
               </li>
               <li>
-                <a href="https://es.wikipedia.org/wiki/React" target="_blank">React</a>
+                <a class="cloudTech" href="https://es.wikipedia.org/wiki/React" target="_blank">React</a>
               </li>
               <li>
-                <a href="https://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones" target="_blank">API´S</a>
+                <a class="cloudTech" href="https://es.wikipedia.org/wiki/Interfaz_de_programaci%C3%B3n_de_aplicaciones" target="_blank">API´S</a>
               </li>
               <li>
-                <a href="https://es.wikipedia.org/wiki/Desarrollo_%C3%A1gil_de_software" target="_blank">Metodologías ágiles</a>
+                <a class="cloudTech" href="https://es.wikipedia.org/wiki/Firebase" target="_blank">Firebase</a>
               </li>
               <li>
-                <a href="https://es.wikipedia.org/wiki/Firebase" target="_blank">Firebase</a>
+                <a class="cloudSoft" href="https://es.wikipedia.org/wiki/Desarrollo_%C3%A1gil_de_software" target="_blank">Metodologías ágiles</a>
               </li>
               <li>
-                <a href="" target="_blank">Responsabilidad</a>
+                <a class="cloudSoft" href="#">Responsabilidad</a>
               </li>
               <li>
-                <a href="" target="_blank">Empatía</a>
+                <a class="cloudSoft" href="#">Empatía</a>
               </li>
               <li>
-                <a href="" target="_blank">Proactividad</a>
+                <a class="cloudSoft" href="#">Proactividad</a>
               </li>
               <li>
-                <a href="" target="_blank">Adaptabilidad</a>
+                <a class="cloudSoft" href="#">Adaptabilidad</a>
               </li>
               <li>
-                <a href="" target="_blank">Trabajo en equipo</a>
+                <a class="cloudSoft" href="#">Trabajo en equipo</a>
               </li>
               <li>
-                <a href="" target="_blank">Ganas de aprender</a>
+                <a class="cloudSoft" href="#">Ganas de aprender</a>
               </li>
               <li>
-                <a href="" target="_blank">Gestión</a>
+                <a class="cloudSoft" href="#">Gestión</a>
               </li>
               <li>
-                <a href="" target="_blank">Profesionalismo</a>
+                <a class="cloudSoft" href="#">Profesionalismo</a>
               </li>
               <li>
-                <a href="" target="_blank">Comunicación eficaz</a>
+                <a class="cloudSoft" href="#">Comunicación eficaz</a>
               </li>
               <li>
-                <a href="" target="_blank">Pensamiento crítico</a>
+                <a class="cloudSoft" href="#">Pensamiento crítico</a>
               </li>
             </ul>
           </canvas>
@@ -143,7 +143,10 @@
   <script type="text/javascript">
     window.onload = function() {
       try {
-        TagCanvas.textColour = '#FC0853';
+        TagCanvas.textColour = null;
+        TagCanvas.outlineRadius = 5;
+        TagCanvas.outlineColour = "tag";
+        TagCanvas.weight = true;
         TagCanvas.Start('myCanvas');
       } catch(e) {
         // something went wrong, hide the canvas container
