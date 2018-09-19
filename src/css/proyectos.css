@@ -24,7 +24,7 @@ i{
 }
 
 .bg-light {
-  background-color: #181818 !important;
+  background-color: transparent !important;
 } /* no olvidar el important!!!! */
 
 #logos{
