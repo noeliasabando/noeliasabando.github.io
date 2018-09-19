@@ -89,6 +89,12 @@ i{
 
 .btn-primary:hover{
   background-color: #FC0853;
+  border-color: #FC0853;
+}
+
+.btn-primary:focus{
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #FC0853 !important;
 }
 
 .imgProyectos{
@@ -147,4 +153,10 @@ i{
 
 #imgBtn4:hover .opacidad {
   opacity: 1;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #FC0853;
+  border-color: #FC0853;
 }
