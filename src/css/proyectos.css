@@ -79,6 +79,15 @@ i{
   backface-visibility: hidden;
 }
 
+#imgMarkdown{
+  width: 350px;
+  height: auto;
+  margin-top: 50px;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
 .btn-primary{
   color: white;
   background-color: #181818;
@@ -152,6 +161,14 @@ i{
 }
 
 #imgBtn4:hover .opacidad {
+  opacity: 1;
+}
+
+#imgBtn5:hover .imgMarkdown {
+  opacity: 0.3;
+}
+
+#imgBtn5:hover .opacidad {
   opacity: 1;
 }
 
