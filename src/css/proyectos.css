@@ -3,7 +3,7 @@ hr {
   width: 50%;
   background-color: black;
   background-color: #FC0853;
-  margin-top: 78px;
+  margin-top: 47px;
 }
 
 a{
@@ -184,9 +184,13 @@ i{
   display: none;
 }
 
-.parrafo1:hover .imgCheck{
+#imgBtn:hover .parrafo1{
   opacity: 0.3;
   display: block;
+}
+
+#imgBtn:hover .opacidad {
+  opacity: 1;
 }
 
 .parrafo2{
@@ -195,9 +199,13 @@ i{
   display: none;
 }
 
-.parrafo2:hover .imgTrello{
+#imgBtn1:hover .parrafo2{
   opacity: 0.3;
   display: block;
+}
+
+#imgBtn1:hover .opacidad {
+  opacity: 1;
 }
 
 
@@ -207,36 +215,58 @@ i{
   display: none;
 }
 
-.parrafo3:hover .imgPinterest{
+#imgBtn2:hover .parrafo3{
   opacity: 0.3;
   display: block;
+}
+
+#imgBtn2:hover .opacidad {
+  opacity: 1;
 }
 
 .parrafo4{
   color: white;
   text-align: justify;
+  display: none;
 }
 
-.parrafo4:hover .imgDeliMap{
+#imgBtn3:hover .parrafo4{
   opacity: 0.3;
+  display: block;
+}
+
+#imgBtn3:hover .opacidad {
+  opacity: 1;
 }
 
 .parrafo5{
   color: white;
   text-align: justify;
+  display: none;
 }
 
-.parrafo5:hover .imgVegan{
+#imgBtn4:hover .parrafo5{
   opacity: 0.3;
+  display: block;
+}
+
+#imgBtn4:hover .opacidad {
+  opacity: 1;
 }
 
 .parrafo6{
   color: white;
   text-align: justify;
+  display: none;
 }
 
-.parrafo6:hover .imgMarkdown{
+#imgBtn5:hover .parrafo6{
   opacity: 0.3;
+  display: block;
+}
+
+#imgBtn5:hover .opacidad {
+  opacity: 1;
 }
 
 
