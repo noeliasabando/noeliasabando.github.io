@@ -177,3 +177,66 @@ i{
   background-color: #FC0853;
   border-color: #FC0853;
 }
+
+.parrafo1{
+  color: white;
+  text-align: justify;
+  display: none;
+}
+
+.parrafo1:hover .imgCheck{
+  opacity: 0.3;
+  display: block;
+}
+
+.parrafo2{
+  color: white;
+  text-align: justify;
+  display: none;
+}
+
+.parrafo2:hover .imgTrello{
+  opacity: 0.3;
+  display: block;
+}
+
+
+.parrafo3{
+  color: white;
+  text-align: justify;
+  display: none;
+}
+
+.parrafo3:hover .imgPinterest{
+  opacity: 0.3;
+  display: block;
+}
+
+.parrafo4{
+  color: white;
+  text-align: justify;
+}
+
+.parrafo4:hover .imgDeliMap{
+  opacity: 0.3;
+}
+
+.parrafo5{
+  color: white;
+  text-align: justify;
+}
+
+.parrafo5:hover .imgVegan{
+  opacity: 0.3;
+}
+
+.parrafo6{
+  color: white;
+  text-align: justify;
+}
+
+.parrafo6:hover .imgMarkdown{
+  opacity: 0.3;
+}
+
+
