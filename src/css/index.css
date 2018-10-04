@@ -1,3 +1,7 @@
+.subtitulo{
+  color: #FC0853;
+}
+
 #name{
   margin-top: 20px;
   color: #FC0853;
@@ -21,7 +25,7 @@ hr {
   height: 1px;
   width: 50%;
   background-color: #FC0853;
-  margin-top: 80px;
+  margin-top: 44px;
 }
 
 a{
@@ -48,7 +52,7 @@ i{
 #logos{
   z-index: 10;
   position: fixed;
-  top:40%;
+  top:30%;
   left:10px;
 }
 

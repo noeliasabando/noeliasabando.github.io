@@ -1,9 +1,14 @@
+#titulo{
+  color: #FC0853;
+  margin-top: 10px;
+}
+
 hr {
   height: 1px;
   width: 50%;
   background-color: black;
   background-color: #FC0853;
-  margin-top: 47px;
+  margin-top: 37px;
 }
 
 a{
@@ -30,14 +35,14 @@ i{
 #logos{
   z-index: 10;
   position: fixed;
-  top:40%;
+  top:30%;
   left:10px;
 }
 
 #imgCheck{
   width: 350px;
   height: auto;
-  margin-top: 50px;
+  margin-top: 20px;
   opacity: 1;
   transition: .5s ease;
   backface-visibility: hidden;
@@ -46,7 +51,7 @@ i{
 #imgTrello{
   width: 350px;
   height: auto;
-  margin-top: 50px;
+  margin-top: 20px;
   opacity: 1;
   transition: .5s ease;
   backface-visibility: hidden;
@@ -55,7 +60,7 @@ i{
 #imgPinterest{
   width: 350px;
   height: auto;
-  margin-top: 50px;
+  margin-top: 20px;
   opacity: 1;
   transition: .5s ease;
   backface-visibility: hidden;
@@ -64,7 +69,7 @@ i{
 #imgDeliMap{
   width: 350px;
   height: auto;
-  margin-top: 50px;
+  margin-top: 30px;
   opacity: 1;
   transition: .5s ease;
   backface-visibility: hidden;
@@ -73,7 +78,7 @@ i{
 #imgVegan{
   width: 350px;
   height: auto;
-  margin-top: 50px;
+  margin-top: 30px;
   opacity: 1;
   transition: .5s ease;
   backface-visibility: hidden;
@@ -82,7 +87,7 @@ i{
 #imgMarkdown{
   width: 350px;
   height: auto;
-  margin-top: 50px;
+  margin-top: 30px;
   opacity: 1;
   transition: .5s ease;
   backface-visibility: hidden;
