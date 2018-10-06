@@ -2,7 +2,7 @@ hr {
   height: 1px;
   width: 50%;
   background-color: #FC0853;
-  margin-top:113px;
+  margin-top:57px;
 }
 
 a{
@@ -39,7 +39,7 @@ i{
 }
 
 .formulario{
-  margin-top: 100px;
+  margin-top: 10px;
 }
 
 .textoInput{
@@ -72,7 +72,7 @@ i{
   background-color: #181818;
   border-color: #FC0853;
   color: white;
-  margin-top: 30px;
+  margin-top: 15px;
   width: 90px;
   height: 35px;
   border-radius: 10px;
@@ -94,4 +94,19 @@ i{
 .nav .nav-item.show .nav-link:hover,
 .nav .nav-item.show .nav-link:focus {
   color: #FC0853;
+}
+
+#titulo{
+  color: #FC0853;
+  margin-top: 20px;
+}
+
+#subtitulo{
+  color: white;
+  margin-top: 30px;
+}
+
+#subtitulo1{
+  color: white;
+  margin-top: -15px;
 }
