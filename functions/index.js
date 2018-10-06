@@ -50,7 +50,7 @@ exports.sendContactMail = functions.https.onRequest((req, res) => {
     mailOptions.text = data.text 
 
     mailTransport.sendMail(mailOptions).then(() => {
-      return console.log('Mensaje enviado');
+      return console.log("Mensaje enviado");
     });
     return res.send("Mensaje enviado")
   });
