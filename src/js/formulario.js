@@ -12,7 +12,7 @@ function contactame() {
   }
   fetch("https://us-central1-portafolio-e4f20.cloudfunctions.net/sendContactMail", {
     method: "POST",
-    body: JSON.stringify(data), // body data type must match "Content-Type" header
+    body: JSON.stringify(data),
   })
     .then(response => response.json())
     .then(response => console.log(response))
