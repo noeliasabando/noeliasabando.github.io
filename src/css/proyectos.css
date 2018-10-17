@@ -280,4 +280,24 @@ i{
   }
 }
 
+@media (max-width: 430px) {
+  #imgCheck{
+    width: 260px;
+  }
+  #imgTrello{
+    width: 260px;
+  }
+  #imgPinterest{
+    width: 260px;
+  }
+  #imgDeliMap{
+    width: 260px;
+  }
+  #imgVegan{
+    width: 260px;
+  }
+  #imgMarkdown{
+    width: 260px;
+  }
+}
 
