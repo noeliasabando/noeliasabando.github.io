@@ -1,4 +1,4 @@
-#titulo{
+/* #titulo{
   color: #FC0853;
   margin-top: 10px;
 }
@@ -9,7 +9,7 @@ hr {
   background-color: black;
   background-color: #FC0853;
   margin-top: 22px;
-}
+} */
 
 a{
   color: white;
@@ -32,12 +32,12 @@ i{
   background-color: transparent !important;
 } /* no olvidar el important!!!! */
 
-#logos{
+/* #logos{
   z-index: 10;
   position: fixed;
   top:30%;
   left:10px;
-}
+} */
 
 #imgCheck{
   width: 350px;

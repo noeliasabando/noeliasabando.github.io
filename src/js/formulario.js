@@ -2,9 +2,9 @@ function contactame() {
   let name = document.getElementById("name").value;
   let email = document.getElementById("email").value;
   let text = document.getElementById("text").value;
-  document.getElementById("name").value="";
-  document.getElementById("email").value="";
-  document.getElementById("text").value="";
+  document.getElementById("name").value = "";
+  document.getElementById("email").value = "";
+  document.getElementById("text").value = "";
   const data = {
     email: email,
     name: name,
@@ -14,8 +14,6 @@ function contactame() {
     method: "POST",
     body: JSON.stringify(data),
   })
-    .then(response => response.json())
-    .then(response => console.log(response))
 }
 
 
